@@ -20,15 +20,15 @@ Most of my work starts on the backend. It rarely stays there.
 
 **Payment integration** · NestJS + Angular + MongoDB<br>
 JWT authentication, a charge management interface and invoice operations connected to the Lytex API.<br>
-[Backend →](https://github.com/GuilhermeReiis/lytex-back) · [Frontend →](https://github.com/GuilhermeReiis/lytex-front)
+[Backend →](k) · [Frontend →]()
 
 **Virtual store** · Nuxt + Pinia + Laravel<br>
 Product and category management, search filters and a shopping cart that survives a page refresh.<br>
-[Frontend →](https://github.com/GuilhermeReiis/front-end) · [API →](https://github.com/GuilhermeReiis/back-end)
+[Frontend →]() · [API →]()
 
 **Products, stores & prices** · NestJS + Angular + PostgreSQL<br>
 A product catalog with pagination, filters and prices associated with individual stores.<br>
-[API →](https://github.com/GuilhermeReiis/vr-api) · [Frontend →](https://github.com/GuilhermeReiis/vr-web)
+[API →](i) · [Frontend →]()
 
 ### `03` / After the commit
 
