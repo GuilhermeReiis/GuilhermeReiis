@@ -1,39 +1,80 @@
-# 👋 Guilherme Reis
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
+  <img src="assets/terminal-light.svg" alt="Guilherme Reis — Software Developer. Backend brain, full stack hands." width="100%">
+</picture>
 
-**Full Stack Developer | Backend-focused**
+I build APIs, connect services and work on the screens that bring them to life.
+Based in **Minas Gerais, Brazil**, with professional experience since **2022** in payment platforms, retail systems and tax-related solutions.
 
-I build and maintain web applications, REST APIs and backend services, with professional experience since 2022 in payment platforms, retail systems and tax-related solutions.
+Most of my work starts on the backend. It rarely stays there.
+
+[LinkedIn ↗](https://www.linkedin.com/in/guilherme-reis-829a021b5/) · [Explore my repositories ↗](https://github.com/GuilhermeReiis?tab=repositories)
+
+### `01` / Tools behind the code
+
+**APIs & services** — TypeScript, Node.js, NestJS · PHP, Laravel<br>
+**Interfaces** — Angular · Vue, Nuxt<br>
+**Data** — PostgreSQL, MongoDB
+
+### `02` / Select a project
+
+**Payment integration** · NestJS + Angular + MongoDB<br>
+JWT authentication, a charge management interface and invoice operations connected to the Lytex API.<br>
+[Backend →](https://github.com/GuilhermeReiis/lytex-back) · [Frontend →](https://github.com/GuilhermeReiis/lytex-front)
+
+**Virtual store** · Nuxt + Pinia + Laravel<br>
+Product and category management, search filters and a shopping cart that survives a page refresh.<br>
+[Frontend →](https://github.com/GuilhermeReiis/front-end) · [API →](https://github.com/GuilhermeReiis/back-end)
+
+**Products, stores & prices** · NestJS + Angular + PostgreSQL<br>
+A product catalog with pagination, filters and prices associated with individual stores.<br>
+[API →](https://github.com/GuilhermeReiis/vr-api) · [Frontend →](https://github.com/GuilhermeReiis/vr-web)
+
+### `03` / After the commit
+
+Meet **Bit**, the little bot on patrol through my contribution graph. Every lit tile is a day I contributed; brighter tiles mean more activity.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
+  <img src="assets/contributions-light.svg" alt="Bit, a pixel-art robot, patrols a calendar of my last 16 weeks of GitHub contributions. Each column is a week, Sunday to Saturday." width="100%">
+</picture>
+
+<sub>16 weeks of real activity · refreshed daily · an animated replay, no controls required.</sub>
+
+<details>
+<summary><code>./side-quest</code> — one bug before you go</summary>
+
+The cart total is `"10020"`. It should be `120`. Where did it go wrong?
+
+```ts
+const subtotal = "100";
+const shipping = 20;
+const total = subtotal + shipping;
+```
+
+<details>
+<summary>Reveal the fix</summary>
+
+`+` concatenates when one operand is a string. Convert and validate the value at the boundary:
+
+```ts
+const amount = Number(subtotal);
+if (subtotal.trim() === "" || !Number.isFinite(amount)) {
+  throw new Error("Invalid subtotal");
+}
+const total = amount + shipping; // 120
+```
+
+For real payments, use integer minor units or a decimal library with explicit rounding rules.
+
+**Bug fixed. You may now close the extra 37 tabs.**
+
+</details>
+</details>
 
 ---
 
-## 🚀 Core Expertise
+**Have an API to build or a system to untangle?**<br>
+Open to backend and full stack opportunities. [Let's talk on LinkedIn →](https://www.linkedin.com/in/guilherme-reis-829a021b5/)
 
-**Backend:** Node.js, TypeScript, NestJS, PHP, Laravel
-**Frontend:** Angular, Nuxt, Vue.js
-**Databases:** PostgreSQL, MongoDB, MySQL, SQL
-**Engineering:** REST APIs, Microservices, Third-party Integrations, Docker, Git, CI/CD and Scrum
-**Currently learning:** Go
-
----
-
-## 💻 What I Work On
-
-* Scalable web applications
-* Backend services and third-party integrations
-* REST APIs and microservices
-* Containerized environments with Docker
-* Responsive interfaces and maintainable codebases
-* Refactoring and improving existing systems
-
----
-
-## 🎯 Opportunities
-
-Open to **Full Stack Developer** and **Backend Developer** roles, especially opportunities focused on backend development, APIs, integrations and scalable systems.
-
----
-
-## 📫 Contact
-
-* **LinkedIn:** [linkedin.com/in/guilherme-reis-829a021b5](https://www.linkedin.com/in/guilherme-reis-829a021b5/)
-* **Location:** Minas Gerais, Brazil
+<!-- You inspected the source. We will probably get along. -->

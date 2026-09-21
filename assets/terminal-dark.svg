@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 192" role="img" aria-labelledby="title desc">
+<title id="title">Guilherme Reis — Software Developer</title>
+<desc id="desc">Guilherme Reis's developer terminal. Original pixel artwork, no JavaScript or external resources.</desc>
+<style>text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;fill:#edf5f4}.muted{fill:#a3b4c7}.accent{fill:#79f2c0}@media(prefers-reduced-motion:reduce){.bot{animation:none!important}}</style>
+<rect x="1" y="1" width="558" height="190" rx="14" fill="#0d1117" stroke="#303b4b"/>
+
+<path d="M1 42h558" stroke="#303b4b"/>
+<circle cx="25" cy="23" r="4" fill="#79f2c0"/><circle cx="40" cy="23" r="4" fill="#a3b4c7"/><circle cx="55" cy="23" r="4" fill="#303b4b"/>
+<text x="77" y="28" font-size="13" class="muted">guilherme@dev: ~</text>
+<text x="28" y="78" font-size="16" class="accent">&gt; whoami</text>
+<text x="28" y="116" font-size="34" font-weight="700">Guilherme Reis</text>
+<text x="28" y="144" font-size="18">Software Developer</text>
+<text x="28" y="172" font-size="14" class="muted">Backend brain. Full stack hands.</text>
+<g transform="translate(491 108) scale(3)"><g shape-rendering="crispEdges" fill="#79f2c0"><path d="M-1-11h2v3h-2z M-7-7h14v11h-14z M-10-3h3v5h-3z M7-3h3v5h-3z M-5 4h3v4h-3z M2 4h3v4h-3z"/><path fill="#0d1117" d="M-4-4h2v3h-2z M2-4h2v3h-2z M-2 1h4v1h-4z"/></g></g>
+</svg>
